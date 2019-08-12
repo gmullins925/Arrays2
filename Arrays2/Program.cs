@@ -52,15 +52,16 @@ namespace Arrays2
 				Console.WriteLine("Unpad " + padRight.Trim('_'));
 			}
 
-			string nickName = name.Remove(3);
+			string nickName = name.Remove(4);
 			Console.WriteLine(nickName);
 
-			Console.WriteLine("Chop characters out of the middle: " + name.Substring(7, 8));
+			Console.WriteLine("Chop characters out of the middle: " + name.Substring(7, 8)); //start index of 7, print next 8 characters
 
 			Console.WriteLine("Look Ma! No 'e's! " + name.Replace('e', '_'));
 
 			Console.WriteLine("UPPER CASE: " + name.ToUpper());
 			Console.WriteLine("lower case: " + name.ToLower());
+
 
 			Console.ReadLine();
 		}
