@@ -52,7 +52,7 @@ namespace Arrays2
 				Console.WriteLine("Unpad " + padRight.Trim('_'));
 			}
 
-			string nickName = name.Remove(4);
+			string nickName = name.Remove(3);
 			Console.WriteLine(nickName);
 
 			Console.WriteLine("Chop characters out of the middle: " + name.Substring(7, 8));
